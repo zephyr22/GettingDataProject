@@ -8,7 +8,7 @@ The subjects were divided into two groups test and train.  Each contains a subje
 measurements, a y file identifying the type of activity associated with the measurement, and an x file which contains the measurements.
 
 The following are the measurements that were kept for processing, it can be seen that each has a x, y, and z corresponding to the 
-three orientational planes:
+three orientational planes. The values were also normalized and bounded within [-1, 1]:
 "tBodyAcc-mean()-X"           "tBodyAcc-mean()-Y"          
 "tBodyAcc-mean()-Z"           "tBodyAcc-std()-X"            "tBodyAcc-std()-Y"            "tBodyAcc-std()-Z"           
 "tGravityAcc-mean()-X"        "tGravityAcc-mean()-Y"        "tGravityAcc-mean()-Z"        "tGravityAcc-std()-X"        
@@ -28,6 +28,7 @@ three orientational planes:
 "fBodyBodyGyroMag-mean()"     "fBodyBodyGyroMag-std()"      "fBodyBodyGyroJerkMag-mean()" "fBodyBodyGyroJerkMag-std()" 
 
 Data Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 ###Process
 First the variables relate to the mean and standard deviation of measurements were identified in the x file.  These column of measurements
