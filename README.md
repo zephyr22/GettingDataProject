@@ -1,4 +1,5 @@
 GettingDataProject
 ==================
+The CodeBook.md contains generally information on the dataset: variables used, the data and transformations performed on the data.
 
-Contains the required documents for the getting data coursera class project
+The Run_Analysis.R file contains the exact code used to transform the data.
